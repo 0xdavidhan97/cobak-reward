@@ -69,7 +69,7 @@ class _MainScreenState extends State<MainScreen> {
           BottomNavigationBarItem(
             icon: Icon(Icons.radar_outlined),
             activeIcon: Icon(Icons.radar),
-            label: '스캐너',
+            label: '스페이스',
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.newspaper_outlined),
