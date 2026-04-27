@@ -9,14 +9,10 @@ class CobakAppBar extends StatelessWidget {
       padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 10),
       child: Row(
         children: [
-          Container(
+          Image.asset(
+            'assets/images/cobak_logo.png',
             width: 36,
             height: 36,
-            decoration: BoxDecoration(
-              color: const Color(0xFF1652F0),
-              borderRadius: BorderRadius.circular(10),
-            ),
-            child: const Icon(Icons.waves, color: Colors.white, size: 20),
           ),
           const Spacer(),
           IconButton(
